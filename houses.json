@@ -1,0 +1,30 @@
+{
+    "Kambista":{
+       "url": "https://kambista.com/",
+       "image": "https://cdn.kambista.com/wp-content/uploads/2020/04/14151750/favicon.png"
+    },
+    "Rextie":{
+        "url": "https://rextie.com/",
+        "image": "https://www.rextie.com/assets/images/icons/favicon-32x32.png"
+    },
+    "Tkambio":{
+        "url": "https://tkambio.com/",
+        "image": "https://tkambio.com/favicon.ico"
+    },
+    "Cambioseguro":{
+        "url": "https://cambioseguro.com/",
+        "image": "https://dkcih82i8p5bk.cloudfront.net/static/favicon.png"
+    },
+    "Securex": {
+        "url": "https://securex.pe",
+        "image": "https://securexweb.s3.amazonaws.com/ambientePrueba/Resources/WebContent/public/web/img/favicon.ico"
+    },
+    "Inkamoney": {
+        "url": "https://inkamoney.com/",
+        "image": "https://inkamoney.com/images/icons/favicon-32x32.png"
+    },
+    "Tucambista": {
+        "url": "https://tucambista.pe/",
+        "image": "https://tucambista.pe/favicon-32x32.png"
+    }
+}
