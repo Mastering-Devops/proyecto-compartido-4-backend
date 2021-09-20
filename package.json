@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-compartido-4-backend",
+  "version": "1.0.0",
+  "description": "API REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mastering-Devops/proyecto-compartido-4-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mastering-Devops/proyecto-compartido-4-backend/issues"
+  },
+  "homepage": "https://github.com/Mastering-Devops/proyecto-compartido-4-backend#readme",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.1",
+    "serverless-wsgi": "^2.0.1"
+  }
+}
