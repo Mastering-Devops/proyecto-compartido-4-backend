@@ -3,7 +3,7 @@ import os
 from flask import Flask, jsonify
 from flask_pymongo import PyMongo
 
-max_result = 7
+max_result = 3
 app = Flask(__name__)
 app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
 mongo = PyMongo(app)
@@ -17,7 +17,7 @@ def _get_history(house):
     cur = mongo.db.dollar.find({"house": house}, {
             '_id': False, 'house': True,
             'buy': True, 'sell': True, 'date': True
-        }).sort('date', -1)
+        }).sort('date', 1)
     result = []
     for row in cur:
         result.append({
